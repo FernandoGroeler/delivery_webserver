@@ -1,0 +1,14 @@
+# Spring Properties
+spring:
+  application:
+     name: web-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka/
+
+# HTTP Server
+server:
+  port: 3001 # HTTP (Tomcat) port
