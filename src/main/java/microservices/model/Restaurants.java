@@ -2,8 +2,9 @@ package microservices.model;
 
 public class Restaurants {
     private int id;
-    private String nome;
-    private String tipoculinaria;
+    private String name;
+    private String category;
+    private String img_path;
 
     public int getId() {
         return id;
@@ -13,19 +14,27 @@ public class Restaurants {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getTipoculinaria() {
-        return tipoculinaria;
+    public String getCategory() {
+        return category;
     }
 
-    public void setTipoculinaria(String tipoculinaria) {
-        this.tipoculinaria = tipoculinaria;
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public String getImg_path() {
+        return img_path;
+    }
+
+    public void setImg_path(String img_path) {
+        this.img_path = img_path;
     }
 }

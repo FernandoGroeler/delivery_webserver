@@ -2,9 +2,9 @@ package microservices.model;
 
 public class RestaurantsItems {
     private int id;
-    private String descricao;
-    private double valor;
-    private Restaurants restaurants;
+    private String name;
+    private String description;
+    private double number;
 
     public int getId() {
         return id;
@@ -14,27 +14,27 @@ public class RestaurantsItems {
         this.id = id;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getName() {
+        return name;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getValor() {
-        return valor;
+    public String getDescription() {
+        return description;
     }
 
-    public void setValor(double valor) {
-        this.valor = valor;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public Restaurants getRestaurants() {
-        return restaurants;
+    public double getNumber() {
+        return number;
     }
 
-    public void setRestaurants(Restaurants restaurants) {
-        this.restaurants = restaurants;
+    public void setNumber(double number) {
+        this.number = number;
     }
 }
