@@ -4,7 +4,7 @@ public class RestaurantsItems {
     private int id;
     private String name;
     private String description;
-    private double number;
+    private double price;
 
     public int getId() {
         return id;
@@ -30,11 +30,11 @@ public class RestaurantsItems {
         this.description = description;
     }
 
-    public double getNumber() {
-        return number;
+    public double getPrice() {
+        return price;
     }
 
-    public void setNumber(double number) {
-        this.number = number;
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
