@@ -1,14 +1,11 @@
 package microservices.model;
 
-import java.util.List;
-
 public class Orders {
-
     private int id;
     private String address;
-    private int number;
     private String complement;
-    private String paymentOption;
+    private int number;
+    private String payment_option;
 
     public int getId() {
         return id;
@@ -26,14 +23,6 @@ public class Orders {
         this.address = address;
     }
 
-    public int getNumber() {
-        return number;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
     public String getComplement() {
         return complement;
     }
@@ -42,11 +31,19 @@ public class Orders {
         this.complement = complement;
     }
 
-    public String getPaymentOption() {
-        return paymentOption;
+    public int getNumber() {
+        return number;
     }
 
-    public void setPaymentOption(String paymentOption) {
-        this.paymentOption = paymentOption;
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getPayment_option() {
+        return payment_option;
+    }
+
+    public void setPayment_option(String payment_option) {
+        this.payment_option = payment_option;
     }
 }

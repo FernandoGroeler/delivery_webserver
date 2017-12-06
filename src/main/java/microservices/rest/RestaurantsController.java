@@ -39,6 +39,7 @@ public class RestaurantsController {
     public Orders orders() {
         return restTemplate.getForObject(ORDERS_SERVICE_URL + "/orders", Orders.class);
     }
+
     @RequestMapping(value = "/orders/items", method = RequestMethod.GET)
     public OrderItems orderItems() {
         return restTemplate.getForObject(ORDERSITEMS_SERVICE_URL + "/orders/items", OrderItems.class);

@@ -1,7 +1,6 @@
 package microservices.model;
 
 public class OrderItems {
-
     private int id;
     private int quantity;
 
